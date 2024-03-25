@@ -63,6 +63,17 @@
       display: none !important;
     }
   }
+  #mission {
+    h2 {
+      font-size: 2rem !important;
+    }
+    p {
+      font-size: 0.9rem !important;
+    }
+    .right {
+      display: none;
+    }
+  }
 }
 
 // Small devices  (tablets, 576px and down)

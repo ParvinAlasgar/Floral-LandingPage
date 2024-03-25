@@ -104,6 +104,15 @@ html {
   #florist .image {
     display: none !important;
   }
+  #mission h2 {
+    font-size: 2rem !important;
+  }
+  #mission p {
+    font-size: 0.9rem !important;
+  }
+  #mission .right {
+    display: none;
+  }
 }
 @media only screen and (max-width: 576px) {
   #nav .logo {
@@ -187,4 +196,20 @@ main #about img {
 }
 main #about img:hover {
   filter: grayscale(0);
+}
+main #mission .content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #mission h2,
+main #mission p {
+  color: #0c5b47;
+}
+main #mission h2 {
+  font-size: 3rem;
+}
+main #mission img {
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
 }/*# sourceMappingURL=main.css.map */

@@ -68,4 +68,23 @@ main {
       }
     }
   }
+  // Mission
+  #mission {
+    .content {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h2,
+    p {
+      color: $color-first;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    img {
+      border-top-left-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+    }
+  }
 }
