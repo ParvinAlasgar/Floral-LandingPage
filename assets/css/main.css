@@ -212,4 +212,10 @@ main #mission h2 {
 main #mission img {
   border-top-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
+}
+main #other ul {
+  background-color: rgba(12, 91, 71, 0.5);
+}
+main #other ul i {
+  margin-right: 1rem;
 }/*# sourceMappingURL=main.css.map */
