@@ -60,6 +60,30 @@ html {
   #header {
     margin-top: 2.9rem;
   }
+  #florist h2,
+  #florist h6,
+  #florist p {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #florist h2,
+  #florist h6 {
+    font-size: 1.5rem;
+  }
+  #florist p {
+    display: none;
+  }
+  #florist .image {
+    justify-content: center !important;
+  }
+  #florist .image::after {
+    display: none;
+  }
+  #florist .image img {
+    width: unset !important;
+    height: unset !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   #nav {
@@ -73,6 +97,12 @@ html {
   }
   #header h3 {
     font-size: 2rem !important;
+  }
+  #florist p {
+    display: block;
+  }
+  #florist .image {
+    display: none !important;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -91,4 +121,41 @@ html {
   #header h3 {
     font-size: 1rem !important;
   }
+  #florist p {
+    display: none !important;
+  }
+}
+body {
+  background-image: url(/assets/images/bg.png);
+}
+
+main #florist .wrapper .content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #florist .wrapper .content h2,
+main #florist .wrapper .content h6,
+main #florist .wrapper .content p {
+  color: #0c5b47;
+}
+main #florist .image::after {
+  content: "";
+  background: url(/assets/images/brown-uniquewise-vases-qi004194-c3_600.avif);
+  top: 15%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  width: 20rem;
+  z-index: 1;
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+main #florist .image img {
+  width: 20rem !important;
+  height: 30rem;
+  z-index: 1;
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
 }/*# sourceMappingURL=main.css.map */

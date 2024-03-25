@@ -9,10 +9,36 @@
   #header {
     margin-top: 2.9rem;
   }
+  #florist {
+    h2,
+    h6,
+    p {
+      font-size: 0.9rem;
+    }
+  }
 }
 
 // Large devices (desktops, 992px and down)
 @media only screen and (max-width: 992px) {
+  #florist {
+    h2,
+    h6 {
+      font-size: 1.5rem;
+    }
+    p {
+      display: none;
+    }
+    .image {
+      justify-content: center !important;
+      &::after {
+        display: none;
+      }
+      img {
+        width: unset !important;
+        height: unset !important;
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and down)
@@ -27,6 +53,14 @@
     }
     h3 {
       font-size: 2rem !important;
+    }
+  }
+  #florist {
+    p {
+      display: block;
+    }
+    .image {
+      display: none !important;
     }
   }
 }
@@ -48,6 +82,11 @@
     }
     h3 {
       font-size: 1rem !important;
+    }
+  }
+  #florist {
+    p {
+      display: none !important;
     }
   }
 }
