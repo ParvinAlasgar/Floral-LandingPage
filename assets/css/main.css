@@ -1,10 +1,16 @@
+#header .content, #header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 html {
   font-size: 1rem !important;
 }
 
 #nav {
   background: url(/assets/images/icegif-4148.gif) #0c5b47;
-  background-color: rgba(12, 91, 71, 0.9);
+  background-color: #0c5b47;
   top: 0;
   left: 0;
   z-index: 10;
@@ -21,9 +27,52 @@ html {
   font-size: 0.9rem !important;
 }
 
+#header {
+  background-image: url(/assets/images/hero.png);
+  position: relative;
+  margin-top: 4.5rem;
+  padding: 20rem;
+}
+#header .content {
+  background-image: url(/assets/images/seamless-pattern-elements-flower-ditsy-vector.jpg);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+#header .content h1,
+#header .content h3 {
+  color: #0c5b47;
+  color: transparent;
+}
+#header .content h1 {
+  font-size: 4rem;
+}
+#header .content h3 {
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  #header {
+    margin-top: 3.8rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #header {
+    margin-top: 2.9rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   #nav {
     padding: 0.7rem 0 !important;
+  }
+  #header {
+    padding: 15rem !important;
+  }
+  #header h1 {
+    font-size: 3rem !important;
+  }
+  #header h3 {
+    font-size: 2rem !important;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -32,5 +81,14 @@ html {
   }
   #nav ul {
     justify-content: center !important;
+  }
+  #header {
+    padding: 10rem !important;
+  }
+  #header h1 {
+    font-size: 2rem !important;
+  }
+  #header h3 {
+    font-size: 1rem !important;
   }
 }/*# sourceMappingURL=main.css.map */

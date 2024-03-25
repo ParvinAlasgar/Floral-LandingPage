@@ -1,0 +1,24 @@
+#header {
+  background-image: url(/assets/images/hero.png);
+  position: relative;
+  @extend %background-image;
+  margin-top: 4.5rem;
+  padding: 20rem;
+  .content {
+    background-image: url(/assets/images/seamless-pattern-elements-flower-ditsy-vector.jpg);
+    @extend %background-image;
+    background-clip: text;
+    color: transparent;
+    h1,
+    h3 {
+      color: $color-first;
+      color: transparent;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 3rem;
+    }
+  }
+}
