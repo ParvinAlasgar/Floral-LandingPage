@@ -44,4 +44,28 @@ main {
       }
     }
   }
+  // About
+  #about {
+    background-image: url(/assets/images/b5c021687ce7499f40a0b94a39c997ca.jpg);
+    @extend %background-image;
+    background-clip: text;
+    h2 {
+      color: transparent;
+      font-size: 3rem;
+    }
+    p {
+      color: transparent;
+      font-size: 2rem;
+    }
+    img {
+      cursor: pointer;
+      border-top-left-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+      transition: filter 0.6s;
+      filter: grayscale(0.6);
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
 }

@@ -1,4 +1,4 @@
-#header .content, #header {
+main #about, #header .content, #header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -124,6 +124,12 @@ html {
   #florist p {
     display: none !important;
   }
+  #about h2 {
+    font-size: 2rem !important;
+  }
+  #about p {
+    font-size: 1rem !important;
+  }
 }
 body {
   background-image: url(/assets/images/bg.png);
@@ -158,4 +164,27 @@ main #florist .image img {
   z-index: 1;
   border-top-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
+}
+main #about {
+  background-image: url(/assets/images/b5c021687ce7499f40a0b94a39c997ca.jpg);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+main #about h2 {
+  color: transparent;
+  font-size: 3rem;
+}
+main #about p {
+  color: transparent;
+  font-size: 2rem;
+}
+main #about img {
+  cursor: pointer;
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  transition: filter 0.6s;
+  filter: grayscale(0.6);
+}
+main #about img:hover {
+  filter: grayscale(0);
 }/*# sourceMappingURL=main.css.map */
