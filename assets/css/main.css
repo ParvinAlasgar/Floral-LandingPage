@@ -1,0 +1,36 @@
+html {
+  font-size: 1rem !important;
+}
+
+#nav {
+  background: url(/assets/images/icegif-4148.gif) #0c5b47;
+  background-color: rgba(12, 91, 71, 0.9);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#nav li a {
+  transition: color 0.5s;
+}
+#nav li a:hover {
+  color: #faba84 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.5rem;
+}
+#nav span {
+  font-size: 0.9rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #nav {
+    padding: 0.7rem 0 !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #nav .logo {
+    display: none !important;
+  }
+  #nav ul {
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=main.css.map */

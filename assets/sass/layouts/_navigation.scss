@@ -1,0 +1,20 @@
+#nav {
+  background: url(/assets/images/icegif-4148.gif) $color-first;
+  background-color: rgba($color: $color-first, $alpha: .9);
+  top: 0;
+  left: 0;
+  z-index: 10;
+  li {
+    a {
+      transition: color 0.5s;
+      &:hover {
+        color: $color-third !important;
+        text-decoration: underline !important;
+        text-underline-offset: 0.5rem;
+      }
+    }
+  }
+  span {
+    font-size: 0.9rem !important;
+  }
+}
