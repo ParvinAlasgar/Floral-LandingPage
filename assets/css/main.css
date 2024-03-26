@@ -160,6 +160,9 @@ html {
   #find h2 {
     font-size: 2rem !important;
   }
+  #subscribe h2 {
+    font-size: 2rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #main #banner img {
@@ -370,4 +373,23 @@ main #find .wrapper {
   background-image: url("/assets/images/pngimg.com - floral_frame_PNG189.png");
   background-size: cover;
   padding: 10rem 0;
+}
+main #subscribe {
+  color: #0c5b47;
+}
+main #subscribe h2 {
+  font-size: 3rem;
+}
+main #subscribe input {
+  color: #0c5b47 !important;
+  outline: none !important;
+}
+main #subscribe input::-moz-placeholder {
+  color: #0c5b47 !important;
+}
+main #subscribe input::placeholder {
+  color: #0c5b47 !important;
+}
+main #subscribe input[type=submit] {
+  background-color: rgba(12, 91, 71, 0.5);
 }/*# sourceMappingURL=main.css.map */

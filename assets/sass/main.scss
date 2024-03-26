@@ -243,4 +243,21 @@ main {
       padding: 10rem 0;
     }
   }
+  // Subscribe
+  #subscribe {
+    color: $color-first;
+    h2 {
+      font-size: 3rem;
+    }
+    input {
+      color: $color-first !important;
+      outline: none !important;
+      &::placeholder {
+        color: $color-first !important;
+      }
+    }
+    input[type="submit"]{
+      background-color: rgba($color: $color-first, $alpha: .5);
+    }
+  }
 }
