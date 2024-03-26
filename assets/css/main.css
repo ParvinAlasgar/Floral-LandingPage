@@ -51,6 +51,35 @@ html {
   font-size: 3rem;
 }
 
+#footer {
+  color: #0c5b47 !important;
+}
+#footer input {
+  color: #0c5b47 !important;
+  outline: none !important;
+}
+#footer input::-moz-placeholder {
+  color: #0c5b47 !important;
+}
+#footer input::placeholder {
+  color: #0c5b47 !important;
+}
+#footer input[type=submit] {
+  background-color: rgba(12, 91, 71, 0.5);
+}
+#footer li {
+  transition: transform 0.5s;
+}
+#footer li a {
+  color: #0c5b47 !important;
+}
+#footer li:hover {
+  transform: translateX(1rem);
+}
+#footer i {
+  color: #0c5b47;
+}
+
 @media only screen and (max-width: 1400px) {
   #header {
     margin-top: 3.8rem;
@@ -161,6 +190,9 @@ html {
     font-size: 2rem !important;
   }
   #subscribe h2 {
+    font-size: 2rem !important;
+  }
+  #footer h2 {
     font-size: 2rem !important;
   }
 }

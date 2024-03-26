@@ -1,6 +1,7 @@
 @import "./utils/variables", "./utils/extends";
 @import "./base/base";
-@import "./layouts/navigation", "./layouts/header", "./layouts/responsive";
+@import "./layouts/navigation", "./layouts/header", "./layouts/footer",
+  "./layouts/responsive";
 
 body {
   background-image: url(/assets/images/bg.png);
@@ -256,8 +257,8 @@ main {
         color: $color-first !important;
       }
     }
-    input[type="submit"]{
-      background-color: rgba($color: $color-first, $alpha: .5);
+    input[type="submit"] {
+      background-color: rgba($color: $color-first, $alpha: 0.5);
     }
   }
 }

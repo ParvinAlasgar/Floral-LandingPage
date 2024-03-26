@@ -1,0 +1,25 @@
+#footer {
+  color: $color-first !important;
+  input {
+    color: $color-first !important;
+    outline: none !important;
+    &::placeholder {
+      color: $color-first !important;
+    }
+  }
+  input[type="submit"] {
+    background-color: rgba($color: $color-first, $alpha: 0.5);
+  }
+  li {
+    transition: transform 0.5s;
+    a {
+      color: $color-first !important;
+    }
+    &:hover {
+      transform: translateX(1rem);
+    }
+  }
+  i {
+    color: $color-first;
+  }
+}
