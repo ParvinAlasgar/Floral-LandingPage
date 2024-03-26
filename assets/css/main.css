@@ -218,4 +218,13 @@ main #other ul {
 }
 main #other ul i {
   margin-right: 1rem;
+}
+main #banner img {
+  height: 6rem;
+  filter: blur(0.3rem);
+}
+main #banner .content {
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
 }/*# sourceMappingURL=main.css.map */

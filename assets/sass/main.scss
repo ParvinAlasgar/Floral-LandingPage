@@ -96,4 +96,16 @@ main {
       }
     }
   }
+  // Banner
+  #banner {
+    img {
+      height: 6rem;
+      filter: blur(0.3rem);
+    }
+    .content {
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
 }
