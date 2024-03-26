@@ -90,10 +90,13 @@ main {
   }
   // Other
   #other {
-    ul {
-      background-color: rgba($color: $color-first, $alpha: 0.5);
-      i {
-        margin-right: 1rem;
+    .wrapper {
+      cursor: pointer;
+      ul {
+        background-color: rgba($color: $color-first, $alpha: 0.5);
+        i {
+          margin-right: 1rem;
+        }
       }
     }
   }
@@ -101,7 +104,7 @@ main {
   #banner {
     img {
       height: 6rem;
-      filter: blur(0.3rem);
+      filter: blur(0.2rem);
     }
     .content {
       top: 10%;
@@ -201,10 +204,12 @@ main {
     }
     i {
       font-size: 1.3rem;
+      color: $color-first;
     }
     img {
       border-top-left-radius: 3rem;
       border-bottom-right-radius: 3rem;
+      height: 25rem;
     }
   }
   // Clients
@@ -253,6 +258,7 @@ main {
     input {
       color: $color-first !important;
       outline: none !important;
+      border-color: $color-first !important;
       &::placeholder {
         color: $color-first !important;
       }

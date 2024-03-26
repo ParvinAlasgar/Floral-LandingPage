@@ -274,15 +274,18 @@ main #mission img {
   border-top-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }
-main #other ul {
+main #other .wrapper {
+  cursor: pointer;
+}
+main #other .wrapper ul {
   background-color: rgba(12, 91, 71, 0.5);
 }
-main #other ul i {
+main #other .wrapper ul i {
   margin-right: 1rem;
 }
 main #banner img {
   height: 6rem;
-  filter: blur(0.3rem);
+  filter: blur(0.2rem);
 }
 main #banner .content {
   top: 10%;
@@ -371,10 +374,12 @@ main #contact h6 {
 }
 main #contact i {
   font-size: 1.3rem;
+  color: #0c5b47;
 }
 main #contact img {
   border-top-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
+  height: 25rem;
 }
 main #clients h2 {
   font-size: 3rem;
@@ -415,6 +420,7 @@ main #subscribe h2 {
 main #subscribe input {
   color: #0c5b47 !important;
   outline: none !important;
+  border-color: #0c5b47 !important;
 }
 main #subscribe input::-moz-placeholder {
   color: #0c5b47 !important;
