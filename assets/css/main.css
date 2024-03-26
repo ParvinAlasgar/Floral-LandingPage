@@ -145,6 +145,9 @@ html {
   #portfolio .flwr {
     display: none;
   }
+  #price h2 {
+    font-size: 2rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #main #banner img {
@@ -263,4 +266,26 @@ main #portfolio .wrapper .content a {
 main #portfolio img {
   border-top-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
+}
+main #price h5,
+main #price p,
+main #price h2,
+main #price h6 {
+  color: #0c5b47;
+}
+main #price h2 {
+  font-size: 3rem;
+}
+main #price h6 {
+  font-size: 1.5rem;
+}
+main #price .wrapper {
+  cursor: pointer;
+}
+main #price .wrapper img {
+  height: 15rem;
+  transition: transform 0.5s;
+}
+main #price .wrapper:hover img {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */

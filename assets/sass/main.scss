@@ -108,7 +108,7 @@ main {
       transform: translate(-50%);
     }
   }
-  // portfolio
+  // Portfolio
   #portfolio {
     h6,
     h2,
@@ -136,6 +136,31 @@ main {
     img {
       border-top-left-radius: 3rem;
       border-bottom-right-radius: 3rem;
+    }
+  }
+  // Price
+  #price {
+    h5,
+    p,
+    h2,
+    h6 {
+      color: $color-first;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h6 {
+      font-size: 1.5rem;
+    }
+    .wrapper {
+      cursor: pointer;
+      img {
+        height: 15rem;
+        transition: transform 0.5s;
+      }
+      &:hover img {
+        transform: scale(1.1);
+      }
     }
   }
 }
