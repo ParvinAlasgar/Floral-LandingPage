@@ -139,6 +139,12 @@ html {
   #about p {
     font-size: 1rem !important;
   }
+  #portfolio h2 {
+    font-size: 2rem !important;
+  }
+  #portfolio .flwr {
+    display: none;
+  }
 }
 @media only screen and (max-width: 320px) {
   #main #banner img {
@@ -232,4 +238,29 @@ main #banner .content {
   top: 10%;
   left: 50%;
   transform: translate(-50%);
+}
+main #portfolio h6,
+main #portfolio h2,
+main #portfolio h3,
+main #portfolio p,
+main #portfolio a {
+  color: #0c5b47;
+}
+main #portfolio h2 {
+  font-size: 3rem;
+}
+main #portfolio h6 {
+  font-size: 1.5rem;
+}
+main #portfolio .wrapper .content {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+main #portfolio .wrapper .content a {
+  border-color: #0c5b47 !important;
+}
+main #portfolio img {
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
 }/*# sourceMappingURL=main.css.map */

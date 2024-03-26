@@ -108,4 +108,34 @@ main {
       transform: translate(-50%);
     }
   }
+  // portfolio
+  #portfolio {
+    h6,
+    h2,
+    h3,
+    p,
+    a {
+      color: $color-first;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h6 {
+      font-size: 1.5rem;
+    }
+    .wrapper {
+      .content {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        a {
+          border-color: $color-first !important;
+        }
+      }
+    }
+    img {
+      border-top-left-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+    }
+  }
 }
