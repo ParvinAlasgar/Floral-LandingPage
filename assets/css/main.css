@@ -1,4 +1,4 @@
-main #events .wrapper, main #about, #header .content, #header {
+main #find .wrapper, main #events .wrapper, main #about, #header .content, #header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -155,6 +155,9 @@ html {
     font-size: 2rem !important;
   }
   #clients h2 {
+    font-size: 2rem !important;
+  }
+  #find h2 {
     font-size: 2rem !important;
   }
 }
@@ -350,4 +353,21 @@ main #clients .image:hover img {
 }
 main #clients .image:hover img {
   transform: scale(1.1);
+}
+main #find {
+  color: #0c5b47;
+}
+main #find h2 {
+  font-size: 3rem;
+}
+main #find h6 {
+  font-size: 1.5rem;
+}
+main #find a {
+  color: #0c5b47;
+}
+main #find .wrapper {
+  background-image: url("/assets/images/pngimg.com - floral_frame_PNG189.png");
+  background-size: cover;
+  padding: 10rem 0;
 }/*# sourceMappingURL=main.css.map */

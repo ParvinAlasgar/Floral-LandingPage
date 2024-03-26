@@ -224,4 +224,23 @@ main {
       }
     }
   }
+  // Find
+  #find {
+    color: $color-first;
+    h2 {
+      font-size: 3rem;
+    }
+    h6 {
+      font-size: 1.5rem;
+    }
+    a {
+      color: $color-first;
+    }
+    .wrapper {
+      background-image: url("/assets/images/pngimg.com\ -\ floral_frame_PNG189.png");
+      @extend %background-image;
+      background-size: cover;
+      padding: 10rem 0;
+    }
+  }
 }
