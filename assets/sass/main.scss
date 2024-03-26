@@ -163,4 +163,30 @@ main {
       }
     }
   }
+  // Events
+  #events {
+    color: $color-first;
+    h2 {
+      font-size: 3rem;
+    }
+    h6 {
+      font-size: 1.5rem;
+    }
+    .wrapper {
+      background-image: url(/assets/images/floral-border-with-flowers_881695-930.avif);
+      @extend %background-image;
+      padding: 7rem 0;
+      a {
+        border-color: $color-first !important;
+        color: $color-first;
+        background-color: rgba($color: $color-first, $alpha: 0.4);
+      }
+    }
+    .second {
+      background-image: url(/assets/images/spring-flower-frame-background-free-vector.jpg);
+    }
+    .third {
+      background-image: url(/assets/images/hand-drawn-floral-pattern-peach-tones_52683-63665.avif);
+    }
+  }
 }

@@ -1,4 +1,4 @@
-main #about, #header .content, #header {
+main #events .wrapper, main #about, #header .content, #header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -148,6 +148,9 @@ html {
   #price h2 {
     font-size: 2rem !important;
   }
+  #events h2 {
+    font-size: 2rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #main #banner img {
@@ -288,4 +291,28 @@ main #price .wrapper img {
 }
 main #price .wrapper:hover img {
   transform: scale(1.1);
+}
+main #events {
+  color: #0c5b47;
+}
+main #events h2 {
+  font-size: 3rem;
+}
+main #events h6 {
+  font-size: 1.5rem;
+}
+main #events .wrapper {
+  background-image: url(/assets/images/floral-border-with-flowers_881695-930.avif);
+  padding: 7rem 0;
+}
+main #events .wrapper a {
+  border-color: #0c5b47 !important;
+  color: #0c5b47;
+  background-color: rgba(12, 91, 71, 0.4);
+}
+main #events .second {
+  background-image: url(/assets/images/spring-flower-frame-background-free-vector.jpg);
+}
+main #events .third {
+  background-image: url(/assets/images/hand-drawn-floral-pattern-peach-tones_52683-63665.avif);
 }/*# sourceMappingURL=main.css.map */
