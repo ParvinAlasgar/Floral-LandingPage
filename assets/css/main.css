@@ -151,6 +151,12 @@ html {
   #events h2 {
     font-size: 2rem !important;
   }
+  #contact h2 {
+    font-size: 2rem !important;
+  }
+  #clients h2 {
+    font-size: 2rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #main #banner img {
@@ -315,4 +321,33 @@ main #events .second {
 }
 main #events .third {
   background-image: url(/assets/images/hand-drawn-floral-pattern-peach-tones_52683-63665.avif);
+}
+main #contact {
+  color: #0c5b47;
+}
+main #contact h2 {
+  font-size: 3rem;
+}
+main #contact h6 {
+  font-size: 1.5rem;
+}
+main #contact i {
+  font-size: 1.3rem;
+}
+main #contact img {
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+main #clients h2 {
+  font-size: 3rem;
+  color: #0c5b47;
+}
+main #clients .image {
+  cursor: pointer;
+}
+main #clients .image:hover img {
+  transition: transform 0.5s;
+}
+main #clients .image:hover img {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */

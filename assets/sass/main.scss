@@ -189,4 +189,39 @@ main {
       background-image: url(/assets/images/hand-drawn-floral-pattern-peach-tones_52683-63665.avif);
     }
   }
+  // Contact
+  #contact {
+    color: $color-first;
+    h2 {
+      font-size: 3rem;
+    }
+    h6 {
+      font-size: 1.5rem;
+    }
+    i {
+      font-size: 1.3rem;
+    }
+    img {
+      border-top-left-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+    }
+  }
+  // Clients
+  #clients {
+    h2 {
+      font-size: 3rem;
+      color: $color-first;
+    }
+    .image {
+      cursor: pointer;
+      &:hover {
+        img {
+          transition: transform 0.5s;
+        }
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
 }
