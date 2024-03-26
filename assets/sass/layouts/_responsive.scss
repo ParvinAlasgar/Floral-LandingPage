@@ -112,4 +112,11 @@
 
 // Extra Small devices (tablets, 320px and down)
 @media only screen and (max-width: 320px) {
+  #main {
+    #banner {
+      img {
+        width: 100% !important;
+      }
+    }
+  }
 }
